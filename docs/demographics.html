@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Superficial Intelligence - Demographic Information</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      #legend {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid #000;
+        border-collapse: collapse;
+      }
+      #legend h3 {
+        margin-top: 0;
+      }
+      .cbox {
+        font-size: 150%;
+        font-weight: bold;
+        color: #ffe680;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" ></div>
+    <div id="legend"></div>
+    <div id="color-definitions" style="display: none;">COLOR_DEFINITIONS</div>
+    <div id="labels" style="display: none;">LABEL_DEFINITIONS</div>
+    <div id="color-definitions-alternate" style="display: none;">COLOR_ALTERNATE_DEFINITIONS</div>
+    <div id="labels-alternate" style="display: none;">LABEL_ALTERNATE_DEFINITIONS</div>
+    <div id="color-definitions-age" style="display: none;">COLOR_AGE_DEFINITIONS</div>
+    <div id="labels-age" style="display: none;">LABEL_AGE_DEFINITIONS</div>
+    <div id="color-definitions-household" style="display: none;">COLOR_HOUSEHOLD_DEFINITIONS</div>
+    <div id="labels-household" style="display: none;">LABEL_HOUSEHOLD_DEFINITIONS</div>
+    <script src="js/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_i1p-mQkyyhMfhf-OVTFdgppBNq9fCa4&callback=initMap">
+    </script>
+  </body>
+</html>

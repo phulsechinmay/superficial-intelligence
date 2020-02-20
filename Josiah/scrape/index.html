@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LA Bike Stations Suggestions Map</title>
+        <meta name="viewport" content="initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <style>
+            #map {
+                height: 100%;
+            }
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #legend {
+                font-family: Arial, sans-serif;
+                background: #fff;
+                padding: 10px;
+                margin: 10px;
+                border: 3px solid #000;
+            }
+            #legend h3 {
+                margin-top: 0;
+            }
+            #legend img {
+                vertical-align: middle;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+        <script
+            type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_i1p-mQkyyhMfhf-OVTFdgppBNq9fCa4&libraries=visualization&callback=initMap"
+            async
+            defer
+        ></script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="legend">
+            <h3>Legend</h3>
+            <div style="color:green">Hover over circles to see comments!</div>
+        </div>
+    </body>
+</html>

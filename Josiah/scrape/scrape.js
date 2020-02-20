@@ -1,0 +1,3 @@
+include request
+
+https://wikimapping.com/mapdata.php?z=10&cats=9280&other=1&min_x=-119.23049926757814&min_y=33.959308210392024&max_x=-117.25296020507812&max_y=34.120900139826965&clat=34.04014265821754&clng=-118.24172973632812&osm=1&ss_proj_id=1337&f=0
